@@ -1,0 +1,10 @@
+23:56:43 **** Incremental Build of configuration Debug for project stm32_air_quality ****
+make all 
+arm-none-eabi-gcc -o "stm32_air_quality.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\HUAWEİ\Desktop\Yeni klasör\stm32_air_quality\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32_air_quality.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+c:\st\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\bin\ld.exe: cannot open linker script file C:\Users\HUAWE??\Desktop\Yeni klas??r\stm32_air_quality\STM32F407VGTX_FLASH.ld: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: stm32_air_quality.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+23:56:43 Build Failed. 2 errors, 0 warnings. (took 402ms)
+
